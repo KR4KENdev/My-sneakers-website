@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url('./images/background.png') no-repeat center center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1013px;
+    height: 548px;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 30px 102px 67px 35px;
+    gap: 70px;
+}
+
+
+.box-1 {
+    width: 40%;
+}
+
+.box-2 {
+    width: 40%;
+}
+
+.sneakers {
+    margin-bottom: 37px;
+    width: 486px;
+    height: 315px;
+}
+
+.box-1 h2 {
+    color: #1345F9;
+    font-family: "Times New Roman";
+    font-size: 25.79px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transform: translateX(13%);
+}
+
+.sizes {
+    width: 100%;
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    padding: 5px 11px 6px 11px;
+    justify-content: space-around;
+}
+
+.menu-link:hover {
+    color: red;
+}
+
+.a:hover {
+    color: black;
+}
+
+.menu-link {
+    color: #1345F9;
+    font-family: "Times New Roman";
+    font-size: 29.019px;
+    font-weight: 400;
+}
+
+/* Box-2 */
+
+.box-2 h2 {
+    color: #1345F9;
+    font-family: "Times New Roman";
+    font-size: 25.703px;
+    font-weight: 400;
+}
+
+.box-2 .nike {
+    margin-top: 10px;
+    color: #000;
+    font-family: "Times New Roman";
+    font-size: 34.412px;
+    font-weight: 400;
+}
+
+.box-2 .nike-2 {
+    margin-top: 10px;
+    color: #1345F9;
+    font-family: "Times New Roman";
+    font-size: 38.031px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.box-2 p {
+    color: #000;
+    font-family: "Times New Roman";
+    font-size: 20.963px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 13px;
+}
+
+button {
+    width: 316px;
+    height: 63.828px;
+    background: #1345F9;
+    color: #FFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-family: Sansation;
+    font-size: 25.79px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.awm {
+    color: #000;
+    cursor: auto;
+}
